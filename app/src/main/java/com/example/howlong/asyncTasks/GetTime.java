@@ -24,7 +24,7 @@ public class GetTime extends AsyncTask<String, Integer,String> {
     protected String doInBackground(String... strings) {
 
 
-        String api_url="https://maps.googleapis.com/maps/api/directions/json?origin=40.741926,-74.062097&destination=40.7440691,-74.1814732&mode=transit&key=AIzaSyAEVPvx1HKpch7X413NP7L2JCc-BLsLG9c";
+        String api_url="https://maps.googleapis.com/maps/api/directions/json?origin=40.741926,-74.062097&destination=40.7440691,-74.1814732&mode=transit&key=API_KEY";
         URL url = null;
         try {
             url = new URL(String.format(api_url));
